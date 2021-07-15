@@ -1,0 +1,183 @@
+h1, h2, h3 {
+    font-weight: bolder;
+  
+  }
+  
+  body {
+    font-family: "Montserrat";
+  }
+  
+  /* nav bar */
+  .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+  }
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* title section */
+  #title {
+    /*background-color: gray;*/
+    background: #666797;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4682B4, #e05cda);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #82d469, #53d5fd);
+  
+    color: rgb(24, 22, 22);
+  }
+  
+  
+  .big-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+  
+  }
+  
+  .title-image {
+    position: absolute;
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  .title-image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* features */
+  #features {
+    padding: 7% 15%;
+    background-color: #b188d3; 
+    z-index: 1;
+    position: relative;
+  }
+  
+  .feature-title{
+    font-size: 1.3rem;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  
+  .icon {
+    margin-bottom: 1rem;
+  }
+  
+  
+   #icon1 {
+    color: #90e225;
+  }
+  #icon1:hover {
+    color: #0f79c0;
+  } 
+  #icon2 {
+    color: #eca24d;
+  }
+  #icon2:hover {
+    color: rgb(238, 85, 149);
+  } 
+  #icon3 {
+    color: rgb(110, 23, 110);
+  }
+  #icon3:hover {
+    color: red;
+  } 
+  
+  
+  p {
+    color: #000000;
+  }
+  
+  /* testimonials */
+  #testimonials {
+    background-color: #6179c7;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  /* call to action*/
+  #cta {
+    background-color: rgb(73, 115, 163);
+    color: rgb(27, 26, 26);
+    text-align: center;
+    padding: 7% 15% 7%;
+  }
+  
+  /* footer */
+  #footer {
+    text-align: center;
+    padding: 5% 5%;
+    /*background-color: #ffd1e1;*/
+    background: #5b9473;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a6b2ca, #E6E6FA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db68c2, #E6E6FA);
+  }
+  
+  .social-logo {
+    margin: 50px 30px;
+    font-size: 2rem;
+  }
+  
+  .logo2 {
+    color: black;
+  }
+  
+  .logo3 {
+    color: #00a8fa;
+  }
+  
+  .logo4 {
+     color: #ff293c;
+  }
+  
+  .social-logo:hover {
+    color: purple;
+  }
+  
+  .p1 {
+    color: rgb(233, 19, 126);
+  }
+  .p2 {
+    color: rgb(54, 30, 163);
+  }
+  
+  /* responsive */
+  @media (max-width:990px) {
+    .title-image {
+      position: static;
+  
+    }
+  
+    .title {
+      text-align: center;
+    }
+  }
